@@ -1,0 +1,19 @@
+<div class="filter" id="filter">
+  <div class="filter-wrapper container">
+    
+    <div class="region-dropdown">
+      <app-dropdown
+        [options]="regionOptions"
+        [defaultText]="regionDropDownText"
+        (sendValueParent)="selectedValue($event)"
+      ></app-dropdown>
+    </div>
+    <div class="region-dropdown">
+      <app-dropdown
+        [options]="items"
+        [defaultText]="dropDownText"
+        (sendValueParent)="selectedValue($event)"
+      ></app-dropdown>
+    </div>
+  </div>
+</div>

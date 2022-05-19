@@ -1,0 +1,9 @@
+<app-loader *ngIf="loading"></app-loader>
+
+<app-regions
+  (filteredDropdown)="onDropdown($event)"
+></app-regions>
+
+<ng-container *ngIf="!loading">
+  <app-cards [list]="list"></app-cards>
+</ng-container>
