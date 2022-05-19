@@ -15,5 +15,5 @@ https://restcountries.com/v2/...
 - If we choose any country from the second drop list, then country card will be loaded. It will have discrete information of the country.
 - When we click on country card, it will take us to country details component.
 
-# Pending things for now:
-- Country details display can be oprtimised like the details get stored in NGRX store and reading from there instead of calling Country service with full text mode.
+# Improvemnets can be done if time permits:
+- Country details display can be optimised like the coutry details will get stored in NGRX store and reading from there instead of calling Country service with full text mode.
